@@ -1,0 +1,30 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android_custom="http://schemas.android.com/apk/res-auto">
+
+    <Button
+        android:id="@+id/btn_ok"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="100px"
+        android:text="开始读条" />
+
+    <wizrole.loading.view.RoundProgressBar
+        android:id="@+id/roundProgressBar1"
+        android:layout_width="140dip"
+        android:layout_height="140dip"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="48dp"
+        android_custom:roundColor="#dcdddf"
+        android_custom:roundProgressColor="#48AEFF"
+        android_custom:roundWidth="10dip"
+        android_custom:textColor="#c2c3c5"
+        android_custom:textSize="18sp" />
+
+</RelativeLayout>

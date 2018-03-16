@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btn_paint"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Paint绘制"
+        android:layout_marginTop="100px"
+        />
+
+    <Button
+        android:id="@+id/btn_circle"
+        android:text="扇形进度"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100px"
+        />
+    <Button
+        android:id="@+id/btn_round"
+        android:text="环形进度"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100px"
+        />
+    <Button
+        android:id="@+id/btn_eleme"
+        android:text="仿饿了么等待动画"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100px"
+        />
+
+    <Button
+        android:id="@+id/btn_progress"
+        android:text="自定义ProgressBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100px"
+        />
+
+    <Button
+        android:id="@+id/btn_dialogload"
+        android:text="dialog等待"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100px"
+        />
+
+    
+</LinearLayout>
